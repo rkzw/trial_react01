@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 # bash .asdf/plugins/nodejs/bin/import-release-team-keyring
-echo -e 'yarn\ntypescript\nts-node\ntypesync\nnpm-check-updates' > .default-npm-packages
+echo -e 'yarn\ntypescript\nts-node\ntypesync\nnpm-check-updates' > ~/.default-npm-packages
