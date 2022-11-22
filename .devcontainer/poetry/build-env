@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cat << 'EOS' >> ~/.zshrc
+# Poetry
+export PATH="~/.asdf/installs/poetry/1.2.0b1/bin:$PATH"
+EOS

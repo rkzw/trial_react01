@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# bash echo ". ~/.asdf/plugins/java/set-java-home.bash" >> ~/.bashrc
+# bash .asdf/plugins/nodejs/bin/import-release-team-keyring
+cat << 'EOS' >> ~/.zshrc
+# JAVA
+. ~/.asdf/plugins/java/set-java-home.zsh
+EOS

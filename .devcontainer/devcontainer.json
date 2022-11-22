@@ -1,0 +1,26 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.231.6/containers/sfdx-project
+{
+    "name": "Salesforce Project (Community)",
+    "extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"ms-toolsai.jupyter",
+		"salesforce.salesforcedx-vscode",
+		"redhat.vscode-xml",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"asvetliakov.vscode-neovim"
+	],
+    "settings": {
+		"salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-1.11.0-openjdk-amd64",
+		// "salesforcedx-vscode-apex.java.home": "/home/rkzw20/.asdf/installs/java/zulu-11.54.25",
+		"remote.containers.defaultExtensions": [ "asvetliakov.vscode-neovim"],
+		"remote.extensionKind": {
+			"asvetliakov.vscode-neovim": ["workspace"]
+		},
+		"vscode-neovim.neovimExecutablePaths.linux": "/asdf/.asdf/shims/nvim",
+		// "vscode-neovim.neovimInitVimPaths.linux": "/asdf/.asdf/shims/nvim",
+	},
+	"dockerFile": "Dockerfile"
+}
